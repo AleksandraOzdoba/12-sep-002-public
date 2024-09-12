@@ -1,0 +1,8 @@
+os: linux
+dist: bionic
+jobs:
+  include:
+    - arch: ppc64le
+      language: minimal
+      script:
+        - echo "test"
